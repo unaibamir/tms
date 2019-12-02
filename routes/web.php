@@ -23,3 +23,4 @@ Route::post('login', ['uses' => $namespacePrefix.'VoyagerAuthController@postLogi
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
